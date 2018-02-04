@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.rifqy_1202152176_modul1.SecondActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:text="@string/text_header"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_subheader"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@+id/header"
+        android:layout_alignStart="@+id/header"
+        android:layout_below="@+id/header"
+        android:gravity="center"
+        android:text="@string/text_bottom_header" />
+
+    <TextView
+        android:id="@+id/text_menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_subheader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Menu" />
+
+    <TextView
+        android:id="@+id/text_menu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_menu3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Text"/>
+
+    <TextView
+        android:id="@+id/text_porsi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_menu_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Porsi" />
+
+    <TextView
+        android:id="@+id/text_porsi_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_porsi3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Text"/>
+
+    <TextView
+        android:id="@+id/text_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text_menu3"
+        android:layout_alignRight="@+id/text_menu3"
+        android:layout_below="@+id/text_porsi_2"
+        android:layout_marginTop="30dp"
+        android:text="Harga" />
+
+    <TextView
+        android:id="@+id/text_harga_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_harga"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Text" />
+
+
+</RelativeLayout>
